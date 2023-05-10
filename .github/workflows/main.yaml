@@ -11,7 +11,7 @@ on:
 jobs:
   es:
     name: Test Elasticsearch Installation
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     steps:
     - name: Install Helm
       uses: azure/setup-helm@v1
@@ -33,7 +33,7 @@ jobs:
 
   kafka:
     name: Test Kafka Installation
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     steps:
     - name: Install Helm
       uses: azure/setup-helm@v1
@@ -55,7 +55,7 @@ jobs:
 
   fluent-operator:
     name: Test Fluent Operator installation
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     steps:
     - name: Checkout
       uses: actions/checkout@v2
