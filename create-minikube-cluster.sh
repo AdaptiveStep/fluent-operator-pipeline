@@ -1,4 +1,7 @@
 #!/bin/bash
+
+#Needs new scripts for windows installer. This is for linux
+
 set -eu
 
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
